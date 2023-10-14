@@ -13,6 +13,7 @@ private:
   vector<Tarefa> tarefas;
 
 public:
+//metodos do banco de dados
   static void recuperarTarefas(vector<Tarefa> &tarefas);
   static void salvarTarefas(Tarefa &tarefa);
   static void salvarTarefasConcluidas(vector<Tarefa> &tarefas);
